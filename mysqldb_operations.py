@@ -7,7 +7,6 @@ use_db = """use ekyc;"""
 create_table="""
 create table if not exists person_details(
 id varchar(255),
-create_time datetime,
 name varchar(255),
 father_name varchar(255),
 dob datetime,
